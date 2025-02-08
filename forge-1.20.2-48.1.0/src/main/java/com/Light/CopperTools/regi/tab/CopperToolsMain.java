@@ -11,6 +11,10 @@ public class CopperToolsMain {
             CopperToolsItems.COPPER_PICKAXE.get(),
             CopperToolsItems.COPPER_AXE.get(),
             CopperToolsItems.COPPER_HOE.get(),
-            CopperToolsItems.COPPER_SWORD.get()
+            CopperToolsItems.COPPER_SWORD.get(),
+            CopperToolsItems.COPPER_HELMET.get(),
+            CopperToolsItems.COPPER_CHESTPLATE.get(),
+            CopperToolsItems.COPPER_LEGGINGS.get(),
+            CopperToolsItems.COPPER_BOOTS.get()
     };
 }
