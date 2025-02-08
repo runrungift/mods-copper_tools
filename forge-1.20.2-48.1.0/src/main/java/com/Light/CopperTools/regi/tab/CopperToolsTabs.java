@@ -16,7 +16,7 @@ public class CopperToolsTabs {
 
     public static final RegistryObject<CreativeModeTab> COPPERTOOLS_MAIN = MOD_TABS.register("coppertools_main",
             ()->{return CreativeModeTab.builder()
-                    .icon(()->new ItemStack(CopperToolsItems.COPPER_NUGGET.get()))
+                    .icon(()->new ItemStack(CopperToolsItems.COPPER_PICKAXE.get()))
                     .title(Component.translatable("itemGroup.coppertools_main"))
                     .displayItems((param,output)->{
                         for (Item item:CopperToolsMain.items){

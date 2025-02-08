@@ -6,6 +6,11 @@ import net.minecraft.world.item.Items;
 
 public class CopperToolsMain {
     public static final Item[] items = {
-            CopperToolsItems.COPPER_NUGGET.get()
+            CopperToolsItems.COPPER_NUGGET.get(),
+            CopperToolsItems.COPPER_SHOVEL.get(),
+            CopperToolsItems.COPPER_PICKAXE.get(),
+            CopperToolsItems.COPPER_AXE.get(),
+            CopperToolsItems.COPPER_HOE.get(),
+            CopperToolsItems.COPPER_SWORD.get()
     };
 }
