@@ -1,3 +1,5 @@
 {
-  "itemGroup.coppertools_main" : "CopperTools"
+  "itemGroup.coppertools_main" : "CopperTools",
+
+  "item.coppertools.copper_nugget" : "銅塊"
 }
