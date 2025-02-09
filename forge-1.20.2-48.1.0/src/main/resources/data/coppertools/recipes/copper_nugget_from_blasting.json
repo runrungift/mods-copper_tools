@@ -18,6 +18,18 @@
     },
     {
       "item": "coppertools:copper_sword"
+    },
+    {
+      "item": "coppertools:copper_helmet"
+    },
+    {
+      "item": "coppertools:copper_chestplate"
+    },
+    {
+      "item": "coppertools:copper_leggings"
+    },
+    {
+      "item": "coppertools:copper_boots"
     }
   ],
   "result": "coppertools:copper_nugget"
