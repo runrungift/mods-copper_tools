@@ -17,15 +17,15 @@ license="All Rights Reserved"
 # The modid of the mod
 modId="coppertools" #mandatory
 # The version number of the mod
-version="1.20.2-1.0" #mandatory
+version="1.20.2-1.0.1" #mandatory
 # A display name for the mod
 displayName="CopperTools" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
-#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+displayURL="https://github.com/runrungift/mods-copper_tools" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-#logoFile="examplemod.png" #optional
+logoFile="coppertools.png" #optional
 # A text field displayed in the mod UI
 #credits="" #optional
 # A text field displayed in the mod UI
@@ -39,7 +39,8 @@ authors="Light" #optional
 #displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
 
 # The description text for the mod (multi line!) (#mandatory)
-description='''add copper tools'''
+description='''Add copper tools and armors.
+The code is posted on GitHub.'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.coppertools]] #optional
     # the modid of the dependency
@@ -66,5 +67,5 @@ description='''add copper tools'''
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
 # that your mod requires GL version 3.2 or higher. Other features will be added. They are side aware so declaring this won't
 # stop your mod loading on the server for example.
-#[features.examplemod]
+#[features.copeprtools]
 #openGLVersion="[3.2,)"
