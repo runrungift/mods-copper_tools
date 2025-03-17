@@ -12,7 +12,7 @@ import net.minecraftforge.common.TierSortingRegistry;
 import java.util.List;
 
 public class CopperTiers {
-    public static final ForgeTier COPPRE = new ForgeTier(1,200,6.0F,0.0F,5, BlockTags.NEEDS_IRON_TOOL,()-> Ingredient.of(Items.COPPER_BLOCK));
+    public static final ForgeTier COPPRE = new ForgeTier(1,200,6.0F,0.0F,5, BlockTags.NEEDS_IRON_TOOL,()-> Ingredient.of(Items.WAXED_COPPER_BLOCK));
 
     static {
         TierSortingRegistry.registerTier(COPPRE,new ResourceLocation(CopperTools.MOD_ID,"copper"), List.of(Tiers.STONE),List.of(Tiers.IRON));

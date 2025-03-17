@@ -24,6 +24,6 @@ public class CopperArmorMaterials {
             SoundEvents.ARMOR_EQUIP_IRON,
             0.0F,
             0.0F,
-            ()->{return Ingredient.of(Items.COPPER_BLOCK);}
+            ()->{return Ingredient.of(Items.WAXED_COPPER_BLOCK);}
             );
 }
