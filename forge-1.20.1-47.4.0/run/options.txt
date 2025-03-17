@@ -1,4 +1,4 @@
-version:3578
+version:3465
 autoJump:false
 operatorItemsTab:true
 autoSuggestions:true
@@ -30,14 +30,13 @@ glintSpeed:0.5
 glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
-narratorHotkey:true
-gamma:0.5
+gamma:1.0
 renderDistance:12
 simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:0
 particles:0
-maxFps:120
+maxFps:260
 graphicsMode:1
 ao:true
 prioritizeChunkUpdates:0
