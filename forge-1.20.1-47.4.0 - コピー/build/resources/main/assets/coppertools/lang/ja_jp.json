@@ -10,5 +10,7 @@
   "item.coppertools.copper_helmet" : "銅のヘルメット",
   "item.coppertools.copper_chestplate" : "銅のチェストプレート",
   "item.coppertools.copper_leggings" : "銅のレギンス",
-  "item.coppertools.copper_boots" : "銅のブーツ"
+  "item.coppertools.copper_boots" : "銅のブーツ",
+
+  "subtitles.armor.equip_copper" : "銅の防具が装備される"
 }
