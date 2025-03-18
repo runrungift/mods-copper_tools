@@ -1,7 +1,7 @@
 package com.Light.CopperTools.item.armor;
 
+import com.Light.CopperTools.sound.ModSounds;
 import net.minecraft.Util;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -9,6 +9,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.EnumMap;
 
 public class CopperArmorMaterials {
+
     public static final ModArmorMaterial COPPER = new ModArmorMaterial(
             "copper",
             12,
@@ -21,9 +22,9 @@ public class CopperArmorMaterials {
 
                     }),
             5,
-            SoundEvents.ARMOR_EQUIP_IRON,
+            ModSounds.ARMOR_EQUIP_COPPER.get(),
             0.0F,
             0.0F,
-            ()->{return Ingredient.of(Items.WAXED_COPPER_BLOCK);}
-            );
+            ()-> Ingredient.of(Items.WAXED_COPPER_BLOCK)
+    );
 }

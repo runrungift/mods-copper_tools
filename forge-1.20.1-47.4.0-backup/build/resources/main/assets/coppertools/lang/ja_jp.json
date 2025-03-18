@@ -1,0 +1,14 @@
+{
+  "itemGroup.coppertools_main" : "CopperTools",
+
+  "item.coppertools.copper_nugget" : "銅塊",
+  "item.coppertools.copper_shovel" : "銅のシャベル",
+  "item.coppertools.copper_pickaxe" : "銅のツルハシ",
+  "item.coppertools.copper_axe" : "銅の斧",
+  "item.coppertools.copper_hoe" : "銅のクワ",
+  "item.coppertools.copper_sword" : "銅の剣",
+  "item.coppertools.copper_helmet" : "銅のヘルメット",
+  "item.coppertools.copper_chestplate" : "銅のチェストプレート",
+  "item.coppertools.copper_leggings" : "銅のレギンス",
+  "item.coppertools.copper_boots" : "銅のブーツ"
+}
